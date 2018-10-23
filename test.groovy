@@ -1,3 +1,5 @@
-def firstTest() {
-  println 'Hello from example1'
+class Thing {
+   def doStuff() { return "HI" }
 }
+
+return new Thing();
