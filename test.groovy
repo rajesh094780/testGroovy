@@ -1,1 +1,1 @@
-sh """ ls """
+sh """helm lint"""
