@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-            def c=load 'test.groovy'
-                c.firstTest()
+            load 'test.groovy'
+            
             }
         }
         stage('Test') {
