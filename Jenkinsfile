@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                pipeline=load 'test.groovy'
+                load 'test.groovy'
                 
             
             }
