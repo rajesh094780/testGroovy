@@ -4,11 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-            
-            def common = load "test.groovy"
-            common.example1()
-           
-                
+            echo 'buil'   
             }
         }
         stage('Test') {
