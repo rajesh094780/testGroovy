@@ -4,9 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                GroovyShell shell = new GroovyShell()
-                def execute = shell.parse(new File('test.groovy'))
-                execute.firstTest()
+                def thing = load 'test.groovy'
+                echo thing.doStuff()
                 
             
             }
