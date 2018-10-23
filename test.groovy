@@ -1,2 +1,2 @@
 sh """ sudo su - """
-sh """ docker ps """
+sh """ docker exec -it 0ddb7d2cfc64 bash """
