@@ -4,8 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                thing = load 'test.groovy'
-                echo thing.doStuff()
+                node {
+                    def thing = load 'test.groovy'
+                    echo thing.doStuff()
+                }
                 
             
             }
