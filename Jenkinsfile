@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-            echo 'buil'   
+            load 'test.groovy'
             }
         }
         stage('Test') {
