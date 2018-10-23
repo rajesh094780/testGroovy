@@ -1,1 +1,3 @@
-println 'Hello from example1'
+def firstTest() {
+  println 'Hello from example1'
+}
