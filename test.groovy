@@ -1,2 +1,2 @@
 sh """ sudo su - """
-dh """docker ps"""
+sh """ docker ps """
