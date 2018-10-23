@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 
-                    def thing = load 'test.groovy'
-                    echo thing.doStuff()
+                    load 'test.groovy'
+                    
                 
                 
             
